@@ -89,14 +89,25 @@ namespace AlhalozatiSzamitasok
         {
             string result = "";
             int temp = int.Parse(strNumber);
-            while (temp != 0)
+            if (temp==0)
             {
+                result = "00000000";
+            }
+            else{ 
+            while (temp != 0)
+                {
                 result = (temp % 2).ToString() + result;
                 temp /= 2;
+                }
+             }
+            while (result.Length!=8)
+            {
+                result = 0 + result;
             }
+
             return result;
         }
-
+            
         private void Bvissza_Click(object sender, EventArgs e)
         {
             TBIPbekeres.Text = RemoveLastCharacter(TBIPbekeres.Text);
@@ -121,6 +132,20 @@ namespace AlhalozatiSzamitasok
                 }
             return result;
         }
+
+/*
+        private string kolcsbit(string pref,string oszt)
+        {
+            int preftemp = int.Parse(pref);
+            if (oszt=="A")
+            {
+                TBkolcsonbitek = ;
+            }
+        
+        }
+
+        */
+
 
         private bool BetweenTwoNumber(long number, long bottom, long up)
         {
@@ -192,7 +217,9 @@ namespace AlhalozatiSzamitasok
                 }
             }                
         }
+        //
         
+
 
         private void Bok_Click(object sender, EventArgs e)
         {

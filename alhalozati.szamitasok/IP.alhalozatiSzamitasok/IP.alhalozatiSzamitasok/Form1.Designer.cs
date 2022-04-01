@@ -91,10 +91,9 @@
             // 
             // TBIPbekeres
             // 
-            this.TBIPbekeres.Location = new System.Drawing.Point(27, 64);
-            this.TBIPbekeres.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TBIPbekeres.Location = new System.Drawing.Point(20, 52);
             this.TBIPbekeres.Name = "TBIPbekeres";
-            this.TBIPbekeres.Size = new System.Drawing.Size(132, 22);
+            this.TBIPbekeres.Size = new System.Drawing.Size(100, 20);
             this.TBIPbekeres.TabIndex = 0;
             this.TBIPbekeres.Text = "192.168.0.1";
             this.TBIPbekeres.TextChanged += new System.EventHandler(this.TBIPbekeres_TextChanged);
@@ -102,201 +101,178 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(23, 44);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(17, 36);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(143, 17);
+            this.label1.Size = new System.Drawing.Size(111, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Adja meg az IP címet:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(330, 44);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(248, 36);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(59, 17);
+            this.label2.Size = new System.Drawing.Size(44, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "Osztály:";
             // 
             // TBosztaly
             // 
-            this.TBosztaly.Location = new System.Drawing.Point(401, 39);
-            this.TBosztaly.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TBosztaly.Location = new System.Drawing.Point(301, 32);
             this.TBosztaly.Name = "TBosztaly";
-            this.TBosztaly.Size = new System.Drawing.Size(51, 22);
+            this.TBosztaly.Size = new System.Drawing.Size(39, 20);
             this.TBosztaly.TabIndex = 3;
             // 
             // TBosztalykiiras
             // 
-            this.TBosztalykiiras.Location = new System.Drawing.Point(461, 39);
-            this.TBosztalykiiras.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TBosztalykiiras.Location = new System.Drawing.Point(346, 32);
             this.TBosztalykiiras.Name = "TBosztalykiiras";
-            this.TBosztalykiiras.Size = new System.Drawing.Size(500, 22);
+            this.TBosztalykiiras.Size = new System.Drawing.Size(376, 20);
             this.TBosztalykiiras.TabIndex = 4;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(293, 76);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(220, 62);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(96, 17);
+            this.label3.Size = new System.Drawing.Size(75, 13);
             this.label3.TabIndex = 5;
             this.label3.Text = "Bináris IP cím:";
             // 
             // TBbin1
             // 
-            this.TBbin1.Location = new System.Drawing.Point(401, 73);
-            this.TBbin1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TBbin1.Location = new System.Drawing.Point(301, 59);
             this.TBbin1.Name = "TBbin1";
-            this.TBbin1.Size = new System.Drawing.Size(132, 22);
+            this.TBbin1.Size = new System.Drawing.Size(100, 20);
             this.TBbin1.TabIndex = 6;
             // 
             // TBbin2
             // 
-            this.TBbin2.Location = new System.Drawing.Point(544, 73);
-            this.TBbin2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TBbin2.Location = new System.Drawing.Point(408, 59);
             this.TBbin2.Name = "TBbin2";
-            this.TBbin2.Size = new System.Drawing.Size(132, 22);
+            this.TBbin2.Size = new System.Drawing.Size(100, 20);
             this.TBbin2.TabIndex = 7;
             // 
             // TBbin3
             // 
-            this.TBbin3.Location = new System.Drawing.Point(685, 73);
-            this.TBbin3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TBbin3.Location = new System.Drawing.Point(514, 59);
             this.TBbin3.Name = "TBbin3";
-            this.TBbin3.Size = new System.Drawing.Size(132, 22);
+            this.TBbin3.Size = new System.Drawing.Size(100, 20);
             this.TBbin3.TabIndex = 8;
             // 
             // TBbin4
             // 
-            this.TBbin4.Location = new System.Drawing.Point(827, 73);
-            this.TBbin4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TBbin4.Location = new System.Drawing.Point(620, 59);
             this.TBbin4.Name = "TBbin4";
-            this.TBbin4.Size = new System.Drawing.Size(132, 22);
+            this.TBbin4.Size = new System.Drawing.Size(100, 20);
             this.TBbin4.TabIndex = 9;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(230, 126);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(172, 102);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(163, 17);
+            this.label4.Size = new System.Drawing.Size(121, 13);
             this.label4.TabIndex = 10;
             this.label4.Text = "Bináris alhálózati maszk:";
             // 
             // TBbinmaszk1
             // 
-            this.TBbinmaszk1.Location = new System.Drawing.Point(401, 122);
-            this.TBbinmaszk1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TBbinmaszk1.Location = new System.Drawing.Point(301, 99);
             this.TBbinmaszk1.Name = "TBbinmaszk1";
-            this.TBbinmaszk1.Size = new System.Drawing.Size(132, 22);
+            this.TBbinmaszk1.Size = new System.Drawing.Size(100, 20);
             this.TBbinmaszk1.TabIndex = 11;
             // 
             // TBbinmaszk2
             // 
-            this.TBbinmaszk2.Location = new System.Drawing.Point(544, 121);
-            this.TBbinmaszk2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TBbinmaszk2.Location = new System.Drawing.Point(408, 98);
             this.TBbinmaszk2.Name = "TBbinmaszk2";
-            this.TBbinmaszk2.Size = new System.Drawing.Size(132, 22);
+            this.TBbinmaszk2.Size = new System.Drawing.Size(100, 20);
             this.TBbinmaszk2.TabIndex = 12;
             // 
             // TBbinmaszk3
             // 
-            this.TBbinmaszk3.Location = new System.Drawing.Point(687, 121);
-            this.TBbinmaszk3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TBbinmaszk3.Location = new System.Drawing.Point(515, 98);
             this.TBbinmaszk3.Name = "TBbinmaszk3";
-            this.TBbinmaszk3.Size = new System.Drawing.Size(132, 22);
+            this.TBbinmaszk3.Size = new System.Drawing.Size(100, 20);
             this.TBbinmaszk3.TabIndex = 13;
             // 
             // TBbinmaszk4
             // 
-            this.TBbinmaszk4.Location = new System.Drawing.Point(827, 122);
-            this.TBbinmaszk4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TBbinmaszk4.Location = new System.Drawing.Point(620, 99);
             this.TBbinmaszk4.Name = "TBbinmaszk4";
-            this.TBbinmaszk4.Size = new System.Drawing.Size(132, 22);
+            this.TBbinmaszk4.Size = new System.Drawing.Size(100, 20);
             this.TBbinmaszk4.TabIndex = 14;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(213, 177);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(160, 144);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(180, 17);
+            this.label5.Size = new System.Drawing.Size(135, 13);
             this.label5.TabIndex = 15;
             this.label5.Text = "Decimális alhálózati maszk:";
             // 
             // TBdecmaszk1
             // 
-            this.TBdecmaszk1.Location = new System.Drawing.Point(403, 177);
-            this.TBdecmaszk1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TBdecmaszk1.Location = new System.Drawing.Point(302, 144);
             this.TBdecmaszk1.Name = "TBdecmaszk1";
-            this.TBdecmaszk1.Size = new System.Drawing.Size(49, 22);
+            this.TBdecmaszk1.Size = new System.Drawing.Size(38, 20);
             this.TBdecmaszk1.TabIndex = 16;
             // 
             // TBdecmaszk2
             // 
-            this.TBdecmaszk2.Location = new System.Drawing.Point(461, 177);
-            this.TBdecmaszk2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TBdecmaszk2.Location = new System.Drawing.Point(346, 144);
             this.TBdecmaszk2.Name = "TBdecmaszk2";
-            this.TBdecmaszk2.Size = new System.Drawing.Size(49, 22);
+            this.TBdecmaszk2.Size = new System.Drawing.Size(38, 20);
             this.TBdecmaszk2.TabIndex = 17;
             // 
             // TBdecmaszk3
             // 
-            this.TBdecmaszk3.Location = new System.Drawing.Point(520, 177);
-            this.TBdecmaszk3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TBdecmaszk3.Location = new System.Drawing.Point(390, 144);
             this.TBdecmaszk3.Name = "TBdecmaszk3";
-            this.TBdecmaszk3.Size = new System.Drawing.Size(49, 22);
+            this.TBdecmaszk3.Size = new System.Drawing.Size(38, 20);
             this.TBdecmaszk3.TabIndex = 18;
             // 
             // TBdecmaszk4
             // 
-            this.TBdecmaszk4.Location = new System.Drawing.Point(579, 177);
-            this.TBdecmaszk4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TBdecmaszk4.Location = new System.Drawing.Point(434, 144);
             this.TBdecmaszk4.Name = "TBdecmaszk4";
-            this.TBdecmaszk4.Size = new System.Drawing.Size(49, 22);
+            this.TBdecmaszk4.Size = new System.Drawing.Size(38, 20);
             this.TBdecmaszk4.TabIndex = 19;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(285, 246);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(214, 200);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(106, 17);
+            this.label6.Size = new System.Drawing.Size(81, 13);
             this.label6.TabIndex = 20;
             this.label6.Text = "Maszk léptetés:";
             // 
             // Bbalra
             // 
-            this.Bbalra.Location = new System.Drawing.Point(403, 234);
-            this.Bbalra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Bbalra.Location = new System.Drawing.Point(302, 190);
             this.Bbalra.Name = "Bbalra";
-            this.Bbalra.Size = new System.Drawing.Size(51, 28);
+            this.Bbalra.Size = new System.Drawing.Size(38, 23);
             this.Bbalra.TabIndex = 21;
             this.Bbalra.Text = "<-";
             this.Bbalra.UseVisualStyleBackColor = true;
             // 
             // Bjobbra
             // 
-            this.Bjobbra.Location = new System.Drawing.Point(563, 233);
-            this.Bjobbra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Bjobbra.Location = new System.Drawing.Point(422, 189);
             this.Bjobbra.Name = "Bjobbra";
-            this.Bjobbra.Size = new System.Drawing.Size(49, 28);
+            this.Bjobbra.Size = new System.Drawing.Size(37, 23);
             this.Bjobbra.TabIndex = 22;
             this.Bjobbra.Text = "+>";
             this.Bjobbra.UseVisualStyleBackColor = true;
             // 
             // TBprefix
             // 
-            this.TBprefix.Location = new System.Drawing.Point(463, 236);
-            this.TBprefix.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TBprefix.Location = new System.Drawing.Point(347, 192);
             this.TBprefix.Name = "TBprefix";
-            this.TBprefix.Size = new System.Drawing.Size(91, 22);
+            this.TBprefix.Size = new System.Drawing.Size(69, 20);
             this.TBprefix.TabIndex = 23;
             this.TBprefix.Text = "Prefix:";
             this.TBprefix.TextChanged += new System.EventHandler(this.TBprefix_TextChanged);
@@ -304,50 +280,45 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(259, 292);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(194, 237);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(130, 17);
+            this.label7.Size = new System.Drawing.Size(103, 13);
             this.label7.TabIndex = 24;
             this.label7.Text = "\"Kölcsönvett\" Bitek:";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(301, 332);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(226, 270);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(88, 17);
+            this.label8.Size = new System.Drawing.Size(69, 13);
             this.label8.TabIndex = 26;
             this.label8.Text = "Hálózati cím:";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(213, 367);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(160, 298);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(176, 17);
+            this.label9.Size = new System.Drawing.Size(135, 13);
             this.label9.TabIndex = 27;
             this.label9.Text = "Első IP cím az alhálózaton:";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(200, 407);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Location = new System.Drawing.Point(150, 331);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(189, 17);
+            this.label10.Size = new System.Drawing.Size(145, 13);
             this.label10.TabIndex = 28;
             this.label10.Text = "Utolsó IP cím az alhálózaton:";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(209, 441);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Location = new System.Drawing.Point(157, 358);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(180, 17);
+            this.label11.Size = new System.Drawing.Size(136, 13);
             this.label11.TabIndex = 29;
             this.label11.Text = "Szórási cím az alhálózaton:";
             this.label11.Click += new System.EventHandler(this.label11_Click);
@@ -355,59 +326,52 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(139, 482);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label12.Location = new System.Drawing.Point(104, 392);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(250, 17);
+            this.label12.Size = new System.Drawing.Size(191, 13);
             this.label12.TabIndex = 30;
             this.label12.Text = "Érvényes IP címek száma a hálózaton:";
             // 
             // TBhalozaticim
             // 
-            this.TBhalozaticim.Location = new System.Drawing.Point(401, 329);
-            this.TBhalozaticim.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TBhalozaticim.Location = new System.Drawing.Point(301, 267);
             this.TBhalozaticim.Name = "TBhalozaticim";
-            this.TBhalozaticim.Size = new System.Drawing.Size(209, 22);
+            this.TBhalozaticim.Size = new System.Drawing.Size(158, 20);
             this.TBhalozaticim.TabIndex = 31;
             // 
             // TBelsoIP
             // 
-            this.TBelsoIP.Location = new System.Drawing.Point(401, 366);
-            this.TBelsoIP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TBelsoIP.Location = new System.Drawing.Point(301, 297);
             this.TBelsoIP.Name = "TBelsoIP";
-            this.TBelsoIP.Size = new System.Drawing.Size(209, 22);
+            this.TBelsoIP.Size = new System.Drawing.Size(158, 20);
             this.TBelsoIP.TabIndex = 32;
             // 
             // TButolsoIP
             // 
-            this.TButolsoIP.Location = new System.Drawing.Point(401, 404);
-            this.TButolsoIP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TButolsoIP.Location = new System.Drawing.Point(301, 328);
             this.TButolsoIP.Name = "TButolsoIP";
-            this.TButolsoIP.Size = new System.Drawing.Size(209, 22);
+            this.TButolsoIP.Size = new System.Drawing.Size(158, 20);
             this.TButolsoIP.TabIndex = 33;
             // 
             // TBszorasiIP
             // 
-            this.TBszorasiIP.Location = new System.Drawing.Point(401, 441);
-            this.TBszorasiIP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TBszorasiIP.Location = new System.Drawing.Point(301, 358);
             this.TBszorasiIP.Name = "TBszorasiIP";
-            this.TBszorasiIP.Size = new System.Drawing.Size(209, 22);
+            this.TBszorasiIP.Size = new System.Drawing.Size(158, 20);
             this.TBszorasiIP.TabIndex = 34;
             // 
             // TBervenyesIP
             // 
-            this.TBervenyesIP.Location = new System.Drawing.Point(401, 479);
-            this.TBervenyesIP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TBervenyesIP.Location = new System.Drawing.Point(301, 389);
             this.TBervenyesIP.Name = "TBervenyesIP";
-            this.TBervenyesIP.Size = new System.Drawing.Size(209, 22);
+            this.TBervenyesIP.Size = new System.Drawing.Size(158, 20);
             this.TBervenyesIP.TabIndex = 35;
             // 
             // B7
             // 
-            this.B7.Location = new System.Drawing.Point(25, 96);
-            this.B7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.B7.Location = new System.Drawing.Point(19, 78);
             this.B7.Name = "B7";
-            this.B7.Size = new System.Drawing.Size(39, 28);
+            this.B7.Size = new System.Drawing.Size(29, 23);
             this.B7.TabIndex = 37;
             this.B7.Text = "7";
             this.B7.UseVisualStyleBackColor = true;
@@ -415,10 +379,9 @@
             // 
             // B6
             // 
-            this.B6.Location = new System.Drawing.Point(121, 132);
-            this.B6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.B6.Location = new System.Drawing.Point(91, 107);
             this.B6.Name = "B6";
-            this.B6.Size = new System.Drawing.Size(39, 28);
+            this.B6.Size = new System.Drawing.Size(29, 23);
             this.B6.TabIndex = 38;
             this.B6.Text = "6";
             this.B6.UseVisualStyleBackColor = true;
@@ -426,10 +389,9 @@
             // 
             // B5
             // 
-            this.B5.Location = new System.Drawing.Point(73, 132);
-            this.B5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.B5.Location = new System.Drawing.Point(55, 107);
             this.B5.Name = "B5";
-            this.B5.Size = new System.Drawing.Size(39, 28);
+            this.B5.Size = new System.Drawing.Size(29, 23);
             this.B5.TabIndex = 39;
             this.B5.Text = "5";
             this.B5.UseVisualStyleBackColor = true;
@@ -437,10 +399,9 @@
             // 
             // B4
             // 
-            this.B4.Location = new System.Drawing.Point(27, 132);
-            this.B4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.B4.Location = new System.Drawing.Point(20, 107);
             this.B4.Name = "B4";
-            this.B4.Size = new System.Drawing.Size(39, 28);
+            this.B4.Size = new System.Drawing.Size(29, 23);
             this.B4.TabIndex = 40;
             this.B4.Text = "4";
             this.B4.UseVisualStyleBackColor = true;
@@ -448,10 +409,9 @@
             // 
             // B9
             // 
-            this.B9.Location = new System.Drawing.Point(121, 96);
-            this.B9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.B9.Location = new System.Drawing.Point(91, 78);
             this.B9.Name = "B9";
-            this.B9.Size = new System.Drawing.Size(39, 28);
+            this.B9.Size = new System.Drawing.Size(29, 23);
             this.B9.TabIndex = 41;
             this.B9.Text = "9";
             this.B9.UseVisualStyleBackColor = true;
@@ -459,10 +419,9 @@
             // 
             // B8
             // 
-            this.B8.Location = new System.Drawing.Point(72, 96);
-            this.B8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.B8.Location = new System.Drawing.Point(54, 78);
             this.B8.Name = "B8";
-            this.B8.Size = new System.Drawing.Size(39, 28);
+            this.B8.Size = new System.Drawing.Size(29, 23);
             this.B8.TabIndex = 42;
             this.B8.Text = "8";
             this.B8.UseVisualStyleBackColor = true;
@@ -470,10 +429,9 @@
             // 
             // B3
             // 
-            this.B3.Location = new System.Drawing.Point(121, 167);
-            this.B3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.B3.Location = new System.Drawing.Point(91, 136);
             this.B3.Name = "B3";
-            this.B3.Size = new System.Drawing.Size(39, 28);
+            this.B3.Size = new System.Drawing.Size(29, 23);
             this.B3.TabIndex = 43;
             this.B3.Text = "3";
             this.B3.UseVisualStyleBackColor = true;
@@ -481,10 +439,9 @@
             // 
             // B2
             // 
-            this.B2.Location = new System.Drawing.Point(72, 167);
-            this.B2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.B2.Location = new System.Drawing.Point(54, 136);
             this.B2.Name = "B2";
-            this.B2.Size = new System.Drawing.Size(39, 28);
+            this.B2.Size = new System.Drawing.Size(29, 23);
             this.B2.TabIndex = 44;
             this.B2.Text = "2";
             this.B2.UseVisualStyleBackColor = true;
@@ -492,10 +449,9 @@
             // 
             // B11
             // 
-            this.B11.Location = new System.Drawing.Point(27, 167);
-            this.B11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.B11.Location = new System.Drawing.Point(20, 136);
             this.B11.Name = "B11";
-            this.B11.Size = new System.Drawing.Size(39, 28);
+            this.B11.Size = new System.Drawing.Size(29, 23);
             this.B11.TabIndex = 45;
             this.B11.Text = "1";
             this.B11.UseVisualStyleBackColor = true;
@@ -504,10 +460,9 @@
             // Bok
             // 
             this.Bok.BackColor = System.Drawing.Color.Red;
-            this.Bok.Location = new System.Drawing.Point(121, 203);
-            this.Bok.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Bok.Location = new System.Drawing.Point(91, 165);
             this.Bok.Name = "Bok";
-            this.Bok.Size = new System.Drawing.Size(39, 28);
+            this.Bok.Size = new System.Drawing.Size(29, 23);
             this.Bok.TabIndex = 46;
             this.Bok.Text = "Ok";
             this.Bok.UseVisualStyleBackColor = false;
@@ -515,10 +470,9 @@
             // 
             // Bpont
             // 
-            this.Bpont.Location = new System.Drawing.Point(73, 203);
-            this.Bpont.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Bpont.Location = new System.Drawing.Point(55, 165);
             this.Bpont.Name = "Bpont";
-            this.Bpont.Size = new System.Drawing.Size(39, 28);
+            this.Bpont.Size = new System.Drawing.Size(29, 23);
             this.Bpont.TabIndex = 47;
             this.Bpont.Text = ".";
             this.Bpont.UseVisualStyleBackColor = true;
@@ -526,10 +480,9 @@
             // 
             // B0
             // 
-            this.B0.Location = new System.Drawing.Point(27, 203);
-            this.B0.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.B0.Location = new System.Drawing.Point(20, 165);
             this.B0.Name = "B0";
-            this.B0.Size = new System.Drawing.Size(39, 28);
+            this.B0.Size = new System.Drawing.Size(29, 23);
             this.B0.TabIndex = 48;
             this.B0.Text = "0";
             this.B0.UseVisualStyleBackColor = true;
@@ -538,10 +491,9 @@
             // Btorles
             // 
             this.Btorles.BackColor = System.Drawing.Color.Gold;
-            this.Btorles.Location = new System.Drawing.Point(27, 240);
-            this.Btorles.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Btorles.Location = new System.Drawing.Point(20, 195);
             this.Btorles.Name = "Btorles";
-            this.Btorles.Size = new System.Drawing.Size(84, 28);
+            this.Btorles.Size = new System.Drawing.Size(63, 23);
             this.Btorles.TabIndex = 49;
             this.Btorles.Text = "Törlés";
             this.Btorles.UseVisualStyleBackColor = false;
@@ -549,10 +501,9 @@
             // 
             // Bvissza
             // 
-            this.Bvissza.Location = new System.Drawing.Point(121, 239);
-            this.Bvissza.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Bvissza.Location = new System.Drawing.Point(91, 194);
             this.Bvissza.Name = "Bvissza";
-            this.Bvissza.Size = new System.Drawing.Size(39, 28);
+            this.Bvissza.Size = new System.Drawing.Size(29, 23);
             this.Bvissza.TabIndex = 50;
             this.Bvissza.Text = "<-";
             this.Bvissza.UseVisualStyleBackColor = true;
@@ -560,19 +511,17 @@
             // 
             // TBkolcsonbitek
             // 
-            this.TBkolcsonbitek.Location = new System.Drawing.Point(403, 287);
-            this.TBkolcsonbitek.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TBkolcsonbitek.Location = new System.Drawing.Point(302, 233);
             this.TBkolcsonbitek.Name = "TBkolcsonbitek";
-            this.TBkolcsonbitek.Size = new System.Drawing.Size(49, 22);
+            this.TBkolcsonbitek.Size = new System.Drawing.Size(38, 20);
             this.TBkolcsonbitek.TabIndex = 51;
             this.TBkolcsonbitek.Text = "0";
             // 
             // kilepButton
             // 
-            this.kilepButton.Location = new System.Drawing.Point(800, 455);
-            this.kilepButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.kilepButton.Location = new System.Drawing.Point(600, 370);
             this.kilepButton.Name = "kilepButton";
-            this.kilepButton.Size = new System.Drawing.Size(159, 46);
+            this.kilepButton.Size = new System.Drawing.Size(119, 37);
             this.kilepButton.TabIndex = 52;
             this.kilepButton.Text = "Kilépés";
             this.kilepButton.UseVisualStyleBackColor = true;
@@ -586,7 +535,8 @@
             this.helpMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1015, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(761, 24);
             this.menuStrip1.TabIndex = 53;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -597,43 +547,42 @@
             this.saveMenuItem,
             this.exitMenuItem});
             this.fileMenuItem.Name = "fileMenuItem";
-            this.fileMenuItem.Size = new System.Drawing.Size(46, 24);
+            this.fileMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileMenuItem.Text = "File";
             // 
             // saveMenuItem
             // 
             this.saveMenuItem.Name = "saveMenuItem";
-            this.saveMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.saveMenuItem.Size = new System.Drawing.Size(98, 22);
             this.saveMenuItem.Text = "Save";
             // 
             // exitMenuItem
             // 
             this.exitMenuItem.Name = "exitMenuItem";
-            this.exitMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.exitMenuItem.Size = new System.Drawing.Size(98, 22);
             this.exitMenuItem.Text = "Exit";
             this.exitMenuItem.Click += new System.EventHandler(this.exitMenuItem_Click);
             // 
             // helpMenuItem
             // 
             this.helpMenuItem.Name = "helpMenuItem";
-            this.helpMenuItem.Size = new System.Drawing.Size(55, 24);
+            this.helpMenuItem.Size = new System.Drawing.Size(44, 20);
             this.helpMenuItem.Text = "Help";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(800, 380);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Location = new System.Drawing.Point(600, 309);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(159, 46);
+            this.button1.Size = new System.Drawing.Size(119, 37);
             this.button1.TabIndex = 54;
             this.button1.Text = "Mentés";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1015, 538);
+            this.ClientSize = new System.Drawing.Size(761, 437);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.kilepButton);
             this.Controls.Add(this.TBkolcsonbitek);
@@ -690,7 +639,6 @@
             this.ForeColor = System.Drawing.Color.DarkBlue;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Alhálózati számítások (IP, maszk ...)";
             this.menuStrip1.ResumeLayout(false);
